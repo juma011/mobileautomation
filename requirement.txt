@@ -1,0 +1,13 @@
+Observe user is able to test sanity flow
+   [Tags] sanity regression
+   # Given Launch browser for Flipkart
+   # When User lands on homepage
+   # Then User clicks on Searchbox and search for Apple Ipad
+   # And User clicks on Search icon
+
+Observe user is able to test regression flow
+   [Tags] regression
+   Given User Launch browser for Flipkart 
+   # When User lands on homepage
+   # Then User clicks on Searchbox and search for Apple Ipad
+   # And User clicks on Search icon
